@@ -1,11 +1,9 @@
 package metodosIntrod.test;
 
-import metodosIntrod.domain.ImpressStudent;
 import metodosIntrod.domain.Student;
 
-public class TestStudent01 {
+public class TestStudent02 {
     public static void main(String[] args) {
-        ImpressStudent impressora = new ImpressStudent();
         Student student1 = new Student();
 
         student1.name = "Irineu";
@@ -18,7 +16,7 @@ public class TestStudent01 {
         student2.age = 17;
         student2.sex = 'F';
 
-        impressora.impressStudent(student1);
-        impressora.impressStudent(student2);
+        student1.imprime();
+        student2.imprime();
     }
 }
