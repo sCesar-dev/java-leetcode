@@ -13,14 +13,13 @@ public class TestCar01 {
         Car.setVelocidadePercorrida(vel);
 
         Car car1 = new Car("Mercedes", 250);
-        car1.calcularTempoPercorrido();
-
         Car car2 = new Car("Mc Lareen", 270);
-        car2.calcularTempoPercorrido();
-
         Car car3 = new Car("Ferrari", 300);
-        car3.calcularTempoPercorrido();
+        Car[] carros = {car1,car2, car3};
 
+        for (Car car: carros ) {
+            car.calcularTempoPercorrido();
+        }
 
 
     }

@@ -22,6 +22,4 @@ public class Car {
         Car.velocidadePercorrida = velocidadePercorrida;
     }
 
-
-
 }
