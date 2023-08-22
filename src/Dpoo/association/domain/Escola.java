@@ -2,12 +2,15 @@ package Dpoo.association.domain;
 
 public class Escola {
     private String nome;
-    private final Professor[] professores;
-
+    private Professor[] professores;
 
     public Escola(String nome, Professor[] professores) {
         this.nome = nome;
         this.professores = professores;
+    }
+
+    public Escola(String nome) {
+        this.nome = nome;
     }
 
     public void imprime(){
