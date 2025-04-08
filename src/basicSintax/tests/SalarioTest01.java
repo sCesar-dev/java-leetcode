@@ -1,8 +1,8 @@
-package BexerciciosViradoNoJiraya.test;
-
-import BexerciciosViradoNoJiraya.domain.SalarioCalculo;
+package basicSintax.tests;
 
 import java.util.Scanner;
+
+import basicSintax.domain.SalarioCalculo;
 
 public class SalarioTest01 {
     public static void main(String[] args) {
@@ -18,6 +18,5 @@ public class SalarioTest01 {
 
         salario.calcularSalario();
         System.out.println("Valor líquido: " + salario.SL);
-
     }
 }

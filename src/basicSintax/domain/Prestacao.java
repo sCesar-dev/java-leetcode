@@ -1,4 +1,4 @@
-package BexerciciosViradoNoJiraya.domain;
+package basicSintax.domain;
 
 public class Prestacao {
 

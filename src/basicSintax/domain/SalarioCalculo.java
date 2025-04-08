@@ -1,4 +1,4 @@
-package BexerciciosViradoNoJiraya.domain;
+package basicSintax.domain;
 
 public class SalarioCalculo {
     //2)Baseado nas fórmulas abaixo, desenvolva uma rotina que calcule o salário líquido de

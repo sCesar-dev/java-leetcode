@@ -1,6 +1,6 @@
-package BexerciciosViradoNoJiraya.test;
+package basicSintax.tests;
 
-import BexerciciosViradoNoJiraya.domain.VolumeLata;
+import basicSintax.domain.VolumeLata;
 
 public class TestVolumeLata {
     public static void main(String[] args) {

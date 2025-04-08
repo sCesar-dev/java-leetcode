@@ -1,6 +1,6 @@
-package BexerciciosViradoNoJiraya.test;
+package basicSintax.tests;
 
-import BexerciciosViradoNoJiraya.domain.Prestacao;
+import basicSintax.domain.Prestacao;
 
 public class TestPrestacao01 {
     public static void main(String[] args) {

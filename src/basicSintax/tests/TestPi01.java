@@ -1,4 +1,4 @@
-package BexerciciosViradoNoJiraya.test;
+package basicSintax.tests;
 
 import BexerciciosViradoNoJiraya.domain.PIFormula;
 

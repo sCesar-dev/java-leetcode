@@ -1,4 +1,4 @@
-package BexerciciosViradoNoJiraya.domain;
+package basicSintax.domain;
 
 public class VolumeLata {
     //5) Escreva uma rotina capaz de calcular e apresentar o valor do volume de uma lata de
