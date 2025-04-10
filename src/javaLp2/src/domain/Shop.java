@@ -10,15 +10,15 @@ public class Shop
 
     · Método que permita verificar se uma loja tem faturamento superior ao de outra loja;
 
-    · Método que permita calcular o valor do aluguel de uma loja. Sabe-se que o aluguel custa R$50,00 por m2. */
+    · Método que permita calcular o valor do aluguel de uma loja. Sabe-se que o aluguel custa R$50,00 por m2. 
 
-
+    */ 
     private String nomeFantasia;
 
     private String razaoSocial;
     private String nrCnpj;
     private int digCnpj, area;
-    private float faturamento;
+    private float faturamento, aluguel;
 
     public String getNomeFantasia()
     {
@@ -50,6 +50,11 @@ public class Shop
     public int getArea()
     {
         return area;
+    }
+
+    public float getAluguel()
+    {
+        return aluguel;
     }
 
     public void criaLoja(String nomeFantasia, String razaosocial, String nrCnpj, int digCnpj)
@@ -120,7 +125,6 @@ public class Shop
     public void calcAluguel(int area)
     {
         this.area = area;
-        int aluguel = getArea() * 50;
-        System.out.printf("\nValor do aluguel: %d", aluguel);
+        this.aluguel = getArea() * 50; 
     }
 }
