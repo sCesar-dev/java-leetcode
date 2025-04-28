@@ -1,0 +1,28 @@
+package atvdClasse28042025;
+
+public class Usuario
+{
+    private String login, password, activationDate;
+
+    public String getLogin()
+    {
+        return login;
+    }
+
+    public String getPassword()
+    {
+        return password;
+    }
+
+    public String getActivationDate()
+    {
+        return activationDate;
+    }
+
+    public Usuario(String login, String password, String activationDate)
+    {
+        this.login = login;
+        this.password = password;
+        this.activationDate = activationDate;
+    }
+}
